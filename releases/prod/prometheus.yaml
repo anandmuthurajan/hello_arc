@@ -7,5 +7,5 @@ spec:
   releaseName: azure-arc-prometheus-prod
   chart:
     git: https://github.com/prometheus-community/helm-charts
-    path: charts      
+    path: charts/prometheus      
     ref: main

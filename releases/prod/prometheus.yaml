@@ -2,9 +2,9 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: azure-arc-prometheus
-  namespace: myprod
+  namespace: prod
 spec:
-  releaseName: azure-arc-prometheus-myprod
+  releaseName: azure-arc-prometheus-prod
   chart:
     git: https://github.com/prometheus-community/helm-charts
     path: charts/prometheus      

@@ -6,6 +6,6 @@ metadata:
 spec:
   releaseName: azure-arc-grafana-prod
   chart:
-    git: https://grafana.github.io/helm-charts/
-    path: grafana/grafana      
+    git: https://github.com/grafana/helm-charts
+    path: charts/grafana      
     ref: main

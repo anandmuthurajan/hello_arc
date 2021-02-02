@@ -1,0 +1,11 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: azure-arc-grafana
+  namespace: prod
+spec:
+  releaseName: azure-arc-grafana-prod
+  chart:
+    git: https://grafana.github.io/helm-charts/
+    path: grafana/grafana      
+    ref: main

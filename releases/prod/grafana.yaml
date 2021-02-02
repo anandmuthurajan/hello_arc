@@ -9,3 +9,5 @@ spec:
     git: https://github.com/grafana/helm-charts
     path: charts/grafana      
     ref: main
+  values:
+    adminPassword: admin
